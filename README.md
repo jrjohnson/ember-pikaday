@@ -1,15 +1,21 @@
-# ember-pikaday [![Build Status](https://travis-ci.org/edgycircle/ember-pikaday.svg)](https://travis-ci.org/edgycircle/ember-pikaday)
+ember-pikaday [![Build Status](https://travis-ci.org/edgycircle/ember-pikaday.svg)](https://travis-ci.org/edgycircle/ember-pikaday)
+==============================================================================
 
 ember-pikaday is an addon that can be installed with Ember CLI. It gives you a datepicker input component that can be used in your Ember.js application. [ember-cli-moment-shim](https://github.com/jasonmit/ember-cli-moment-shim) is used in the background so it is added as NPM dependencies to your application.
 
 **The component provided by ember-pikaday is fully acceptance tested. It also provides test helpers to interact with the datepicker in your own acceptance tests. It works in Ember 1.13.1+ or 2.0+, including beta and canary.**
 
-## Installation
+
+Installation
+------------------------------------------------------------------------------
 
 ```bash
 cd your-project-directory
 ember install ember-pikaday
 ```
+
+Usage
+------------------------------------------------------------------------------
 
 *This README is for the new 2.X release of ember-pikaday. You can find the [1.X README in the stable-1 branch](https://github.com/edgycircle/ember-pikaday/blob/stable-1/README.md).*
 
@@ -296,3 +302,36 @@ var app = new EmberApp(defaults, {
 ## Other Resources
 
 * [Video introduction by EmberScreencasts](https://www.emberscreencasts.com/posts/56-ember-pikaday)
+
+
+Contributing
+------------------------------------------------------------------------------
+
+### Installation
+
+* `git clone https://github.com/edgycircle/ember-pikaday.git`
+* `cd my-addon`
+* `npm install`
+
+### Linting
+
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
+### Running tests
+
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
+
+### Running the dummy application
+
+* `ember serve`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
+
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
